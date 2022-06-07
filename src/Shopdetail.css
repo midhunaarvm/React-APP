@@ -1,0 +1,225 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.shopdetailbody{
+    width: 80%;
+    height: 300px;
+    
+    display: flex;
+    margin-top: -100px;
+   
+    flex-direction: row;
+  }
+  
+  .shopdetailbody .carousel1 {
+    position: relative;
+    /* box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64); */
+    margin-left: 20px;
+   height: 200px;
+    width: 40%;
+    
+    
+   
+    
+  }
+  
+  .shopdetailbody .carousel-inner1 {
+    position: relative;
+    overflow: hidden;
+    /* width:900px; */
+    /* margin-left: 100px; */
+  
+   width: 50%;
+   height: 300px;
+    
+   
+  }
+  
+  .carousel-open1:checked + .shopcarousel-item {
+    position: static;
+    
+  }
+
+  .shopDetailContent{
+      width: 100%;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+  }
+  .shopdetailcontentLeft{
+      width: 500px;
+      display: flex;
+      justify-content: center;
+      
+  }
+  .shopdetailcontentRight{
+      width: 700px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+  }
+  .star{
+      display: flex;
+      flex-direction: row;
+
+  }
+  .fa-star{
+      color: rgb(248, 182, 82);
+  }
+  .shopincrement{
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: rgba(208,156,152,255);
+    margin-top: 40px;
+    
+  }
+ .shopingcart{
+     display: flex;
+     flex-direction: row;
+    margin-top: -40px;
+    margin-left: -100px;
+    
+ }
+ .shopingcart button{
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: rgba(208,156,152,255);
+ }
+ .shopingcart .fa-cart-shopping{
+     color: black;
+     font-size: large;
+     margin-left: -30px;
+     margin-right: 30px;
+ }
+.decrementbuttons{
+    margin-left: -250px;
+}
+.review{
+  padding-left: 500px;
+  padding-top: 100px;
+}
+.review button{
+  height: 50px;
+  width: 150px;
+  border: none;
+  background-color: transparent;
+  color: darkgoldenrod;
+}
+.review button:active{
+  border: 1px solid aliceblue;
+  color: black;
+}
+.productdescription{
+  padding-left: 150px;
+  width: 70%;
+}
+  /* .shopdetailtext{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    display: flex;
+    flex-direction: row;
+    
+    
+    margin-top: -20px;
+    width: 50%;
+    height: 330px;
+    
+  }
+  
+.fa-star{
+    padding-top: 20px;
+    margin-left: -250px;
+    
+    
+}
+  .star{
+   width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: -100px;
+    
+
+  }
+  .tstartext{
+    display: flex;
+    margin-left: -300px;
+    margin-top: 30px;
+  
+    
+    height: 50px;
+  }
+  .star5{
+  margin-left: -80px;
+  }
+  .star2{
+    margin-left: -80px;
+  }
+  .star3{
+    margin-left: -80px;
+  }
+  .star4{
+    margin-left: -80px;
+    
+  }
+  
+  .dollar{
+    margin-top: 80px;
+    margin-left: -210px;
+  }
+  .loremtext{
+    margin-left: -80px;
+    
+   
+  }
+  .checkbox-round {
+    width: 1.1em;
+    height: 1.1em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .shopdetailcheckbox{
+    margin-top: 300px;
+    margin-left: -550px;
+  }
+  .shopdetailcolorbox{
+    margin-top: 350px;
+    margin-left: -300px;
+  }
+  .quantityButtons{
+    display: flex;
+    flex-direction: column;
+   
+    /* justify-content: space-around; */
+  
+  /* .decrementbuttons{
+    display: flex;
+    margin-left: -730px;
+    margin-top: 100px;
+  }
+  .decrementbuttons button{
+    background-color: rgba(208,156,152,255);
+    border: none;
+    width: 40px;
+    height: 40px;
+   
+    
+  } */
+
+
